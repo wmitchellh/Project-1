@@ -7,6 +7,10 @@ h2 {
   font-weight: 300;
 }
 
+a {
+  color: inherit;
+}
+
 .header {
   background-color: #208de4;
 }
@@ -30,6 +34,33 @@ h2 {
   left: 35%;
 }
 
+/* .navicon1 {
+  background-image: url("assets/icon-dashbord.png"); no-repeat;
+}
+.navicon1:hover {
+  background-image: url("assets/icon-dashboard-a.png") no-repeat;
+}
+
+.navicon2 {
+
+}
+
+.navicon3 {
+
+}
+
+.navicon4 {
+
+}
+
+.navicon5 {
+
+}
+
+.navicon6 {
+
+} */
+
 .dashboard {
   background-color: #33cc66;
   color: white;
@@ -37,6 +68,20 @@ h2 {
   margin-top: 18px;
   margin-bottom: 18px;
   border-radius: 8px;
+
+}
+
+.search-container{
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #33cc66;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 650px;
 }
 
 .dashboardtext {
@@ -127,7 +172,44 @@ h2 {
   border-left-width: thin;
   border-top-width: thick;
   border-bottom-style: none;
-  color: #2498f4
+  color: #2498f4;
+}
+
+.dropbtn {
+  background-color: white;
+  color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Myriad Pro";
+}
+
+.dropdown {
+  position: relative;
+  left: 10px;
+  display: inline-block;
+  font-family: "Myriad Pro";
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Myriad Pro";
+}
+
+.dropdown-content a {
+  color: gray;
+  padding: 12px 16px;
+  display: block;
+  font-family: "Myriad Pro";
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .reccomendations {
@@ -136,7 +218,7 @@ h2 {
   border-width: thin;
   border-left-width: thick;
   border-top-width: thick;
-  color: #2498f4
+  color: #2498f4;
 }
 
 .steps {
@@ -191,23 +273,39 @@ h2 {
 
 .socialMedia {
   text-align: center;
+  border-style: solid;
+  border-color: #f6f6f6;
+  border-top-style: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .contacts {
-  background-color: #2498f4;
-  margin-top: 100px;
   color: white;
+  border-style: solid;
+  border-color: #f6f6f6;
 }
 
 .customers {
-  background-color: #2498f4;
-  margin-top: 100px;
   color: white;
+  border-style: solid;
+  border-color: #f6f6f6;
+}
+
+.label {
+  background-color: #2498f4;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .didYou {
   background-color: #2498f4;
-  margin-top: 200px;
+  margin-top: 80px;
   border-radius: 5px;
   color: white;
   text-align: left;
@@ -219,32 +317,25 @@ h2 {
 
 .promo {
   margin-top: 30px;
+  margin-bottom: 30px;
   background-color: #2498f4;
   padding-top: 10px;
-  padding-bottom: 10px;
   display: flex;
   justify-content: center;
 }
 
 .whatYou {
   margin: 10px;
-  padding-bottom: 100px;
-  background-color: white;
-  border-radius: 5px;
 }
 
 .seeWhat {
-  background-color: white;
   margin: 10px;
-  padding-bottom: 100px;
-  border-radius: 5px;
+  position: relative;
+  bottom: 10px;
 }
 
 .version {
-  background-color: white;
   margin: 10px;
-  padding-bottom: 100px;
-  border-radius: 5px;
 }
 
 .footer{
@@ -261,11 +352,13 @@ h2 {
 
 .footerLeft {
 
-  border-style
+  color: #999999;
 
 }
 
 .footerMid {
+
+  color: #999999;
 
 }
 

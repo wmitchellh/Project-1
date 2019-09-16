@@ -28,7 +28,7 @@
 
           <!-- col-xs-6 -->
           <div class="col-lg-12 headertext">
-            <p>MINI of Raleigh &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <img src="assets/icon-help.png" alt="help"> &nbsp;&nbsp;&nbsp; <img src="assets/icon-settings.png" alt="settings"></p>
+            <p><a href="#">MINI of Raleigh</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <a href="#"><img src="assets/icon-help.png" alt="help"></a> &nbsp;&nbsp;&nbsp; <a href="#"><img src="assets/icon-settings.png" alt="settings"></a></p>
 
           </div> <!-- /col-xs-6 -->
 
@@ -45,8 +45,8 @@
             <!-- panel-default -->
             <div clas="panel panel-default">
 
-              <div class="panel-body">
-                <img src="assets/icon-dashboard.png" alt="NacIcon1">
+              <div class="panel-body navicon1">
+                <img src="assets/icon-dashboard.png" alt="NavIcon1">
               </div>
 
             </div> <!-- /panel-default -->
@@ -59,7 +59,7 @@
             <!-- panel-default -->
             <div clas="panel panel-default">
 
-              <div class="panel-body">
+              <div class="panel-body navicon2">
                 <img src="assets/icon-customers.png" alt="NavIcon2">
               </div>
 
@@ -73,7 +73,7 @@
             <!-- panel-default -->
             <div clas="panel panel-default">
 
-              <div class="panel-body">
+              <div class="panel-body navicon3">
                 <img src="assets/icon-messages.png" alt="NavIcon3">
               </div>
 
@@ -87,7 +87,7 @@
             <!-- panel-default -->
             <div clas="panel panel-default">
 
-              <div class="panel-body">
+              <div class="panel-body navicon4">
                 <img src="assets/icon-promotions.png" alt="NavIcon4">
               </div>
 
@@ -100,7 +100,7 @@
             <!-- panel-default -->
             <div clas="panel panel-default">
 
-              <div class="panel-body">
+              <div class="panel-body navicon5">
                 <img src="assets/icon-page.png" alt="NavIcon5">
               </div>
 
@@ -113,7 +113,7 @@
             <!-- panel-default -->
             <div clas="panel panel-default">
 
-              <div class="panel-body">
+              <div class="panel-body navicon6">
                 <img src="assets/icon-analytics.png" alt="NavIcon6">
               </div>
 
@@ -138,6 +138,13 @@
 
         </div> <!-- /col-xs-6 -->
 
+        <div class="search-container">
+    <form action="#">
+      <input type="text">
+      <button type="submit"></button>
+    </form>
+        </div>
+
       </div> <!-- /row -->
 
       <!-- Announcements and Arrow Buttons Row -->
@@ -157,7 +164,7 @@
 
           <!-- col-lg-2 -->
           <div class="col-lg-2 arrows">
-            <img src="assets/arrow-left.png" alt="arrowL"> &nbsp;&nbsp; <img src="assets/arrow-right.png" alt="arrowR">
+            <a href="#"><img src="assets/arrow-left.png" alt="arrowL"></a> &nbsp;&nbsp; <a href="#"><img src="assets/arrow-right.png" alt="arrowR"></a>
 
           </div> <!-- /col-lg-2 -->
 
@@ -168,24 +175,28 @@
 
         <!-- col-lg-4: Tasks -->
         <div class="col-lg-4 tasks">
-          <h2>Tasks <span class="right"><img src="assets/tasks-settings.png" alt="tasks-settings"></span></h2>
+          <h2>Tasks <span class="right"><a href="#"><img src="assets/tasks-settings.png" alt="tasks-settings"></a></span></h2>
 
           <div class="row welcome">
-            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;Welcome Contacts</p>
+            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Welcome Contacts</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/welcome-count.png" alt="welcome-count"></p>
           </div>
-
+                                              <!-- ***I know this is horrendous*** -->
           <div class="row provide">
-            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;Provide Responses</p>
+            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Provide Responses</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/provide-count.png" alt="provide-count"></p>
           </div>
-
+                                              <!-- ***I know this is horrendous*** -->
           <div class="row review">
-            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;Review Activity</p>
+            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Review Activity</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/review-count.png" alt="review-count"></p>
           </div>
-
+                                              <!-- ***I know this is horrendous*** -->
           <div class="row reach">
-            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;Reach Out</p>
+            <p><img src="assets/tasks-circle.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Reach Out</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/reach-count.png" alt="reach-count"></p>
           </div>
-
+                                              <!-- ***I know this is horrendous*** -->
         </div> <!-- /col-lg-4 -->
 
         <!-- col-lg-8: Analytics -->
@@ -198,7 +209,14 @@
             </div>
 
             <div class="col-lg-4 dropdown">
-              <p>DROP DOWN</p>
+              <div class="dropdown">
+                <button class="dropbtn">06/28/11 - 07/21/11 &nbsp; v</button>
+                <div class="dropdown-content">
+                  <a href="#">07/22/11 - 08/01/11</a>
+                  <a href="#">08/02/11 - 09/15/11</a>
+                  <a href="#">09/12/11 - 09/30/11</a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -226,35 +244,59 @@
           <h2>Reccomentations</h2>
 
           <div class="row steps">
-            <p><img src="assets/icon-article.png" alt="article"> &nbsp;&nbsp;&nbsp;7 steps to getting more Fans</p>
+            <p><img src="assets/icon-article.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">7 steps to getting more Fans</a></p>
           </div>
 
           <div class="row increase">
-            <p><img src="assets/icon-article.png" alt="article"> &nbsp;&nbsp;&nbsp;Increase traction with more interaction</p>
+            <p><img src="assets/icon-article.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Increase traction with more interaction</a></p>
           </div>
 
           <div class="row creating">
-            <p><img src="assets/icon-checklist.png" alt="article"> &nbsp;&nbsp;&nbsp;Creating a Promotion</p>
+            <p><img src="assets/icon-checklist.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Creating a Promotion</a></p>
           </div>
 
           <div class="row share">
-            <p><img src="assets/icon-tip.png" alt="article"> &nbsp;&nbsp;&nbsp;Share more</p>
+            <p><img src="assets/icon-tip.png" alt="article"> &nbsp;&nbsp;&nbsp;<a href="#">Share more</a></p>
           </div>
 
         </div> <!-- /col-lg-4: Reccomendations -->
 
         <!-- col-lg-8: Social Media form and Contacts/Customers -->
         <div class="col-lg-8 socialMedia">
-          <p>Social Media Form</p>
+          <div class="container">
+            <form>
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">&nbsp;<img src="assets/facebook.png" alt="facebook">
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">&nbsp;<img src="assets/twitter.png" alt="twitter">
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">&nbsp;<img src="assets/foursquare.png" alt="foursquare">
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">&nbsp;<img src="assets/googleplus.png" alt="googleplus">
+              </label>
+            </form>
+          </div>
 
-            <div class="row">
+
+            <div class="row heads">
 
               <div class="col-lg-6 contacts">
-                <p>75 Contacts</p>
+                <img src="assets/head-green.png" alt="avatar-g">
+                <div class="row label">
+                <p>75 contacts</p>
+                </div>
+                <img src="assets/chart-green.png" alt="chart-g">
               </div>
 
               <div class="col-lg-6 customers">
-                <p>17 Customers</p>
+                <img src="assets/head-orange.png" alt="avatar-o">
+                  <div class="row label">
+                  <p>17 Customers</p>
+                  </div>
+                <img src="assets/chart-orange.png" alt="avatar-o">
               </div>
 
             </div>
@@ -271,15 +313,15 @@
       <div class="row promo"> <!-- Bottom 3 images -->
 
         <div class="col-lg-3 whatYou">
-          <p>Watch what you say</p>
+          <img src="assets/watch-what.png" alt="watch-what">
         </div>
 
         <div class="col-lg-3 seeWhat">
-          <p>See what others are doing with us</p>
+          <img src="assets/see-what.png" alt="see-what">
         </div>
 
         <div class="col-lg-3 version">
-          <p>Version 2.0 is coming</p>
+          <img src="assets/version-2.png" alt="version-2">
         </div>
 
       </div> <!-- /Bottom 3 images -->
@@ -295,7 +337,7 @@
         </div>
 
         <div class="col-lg-3 footerRight">
-          <p>Logout | Social |
+          <img src="assets/footer-logout.png" alt="logout"> <img src="assets/footer-social.png" alt="social">
         </div>
 
       </div> <!-- /Footer -->
@@ -307,6 +349,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-  <script src="project1.js"></script>
   </body>
 </html>
