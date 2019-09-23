@@ -327,6 +327,7 @@ section {
 .announcements-text {
   display: inline-block;
   color: #777;
+  width: 600px;
   padding: 18px 15px 14px;
   flex-grow: 1;
   overflow: hidden;
@@ -1203,4 +1204,6 @@ section {
     width: 75px;
     flex-grow: 0;
   }
+#wrapper {
+  width: 600px;
 }

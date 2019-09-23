@@ -4,6 +4,7 @@
   <title>Dashboard - Mini of Raleigh</title>
   <script src="https://use.typekit.net/tws2cki.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -41,10 +42,15 @@
       <div class="page-inner">
         <section class="announcements bottom-shadow">
           <h6 class="announcements-title">Announcements</h6>
-          <div class="announcements-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
+          <div class="announcements-text"id="wrapper">
+            <div>This is the first announcement.</div>
+            <div>This is the second announcement.</div>
+            <div>This is the third announcement.</div>
+          </div>
           <div class="announcements-buttons">
             <div class="centered">
               <a href="#" class="i-caret-left"></a>
+              <!-- <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button> -->
               <a href="#" class="i-caret-right"></a>
             </div>
           </div>
@@ -255,6 +261,9 @@
     // Move caret on window resize
     window.onresize = setCaret;
   </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
